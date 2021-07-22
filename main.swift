@@ -13,7 +13,10 @@ class BankOperation {
     var bankAccountBalance : Double = 0.0
     var currentCardNumber : Int = 0
     var bankAccount : Account!
-    var accountDetailArray : [Account] = [Account(accountNumber: [9876543210 : 1000.0, 7654321098 : 2000.0], accountHolderName: "Alex", creditCard: [CreditCard(accNumber: 9876543210, cardNumber: 1234, cvvNumber: 777, cardExpiryDate: "09/2021", pinNumber: 980), CreditCard(accNumber: 9876543210, cardNumber: 7890, cvvNumber: 121, cardExpiryDate: "11/2025", pinNumber: 534)], debitCard: [DebitCard(accNumber: 9876543210, cardNumber: 2345, cvvNumber: 111, cardExpiryDate: "03/2027", pinNumber: 233), DebitCard(accNumber: 7654321098, cardNumber: 3456, cvvNumber: 471, cardExpiryDate: "07/2024", pinNumber: 786)]), Account(accountNumber: [5678901234 : 4800.0], accountHolderName: "Bob", creditCard: [CreditCard(accNumber: 5678901234, cardNumber: 2098, cvvNumber: 076, cardExpiryDate: "08/2028", pinNumber: 555)], debitCard: [DebitCard(accNumber: 5678901234, cardNumber: 2178, cvvNumber: 142, cardExpiryDate: "07/2023", pinNumber: 707)])]
+    var accountDetailArray : [Account] = [Account(accountNumber: [9876543210 : 1000.0, 7654321098 : 2000.0], accountHolderName: "Alex", creditCard: [CreditCard(accNumber: 9876543210, cardNumber: 1234, cvvNumber: 777, cardExpiryDate: "09/2021", pinNumber: 980), CreditCard(accNumber: 9876543210, cardNumber: 7890, cvvNumber: 121, cardExpiryDate: "11/2025", pinNumber: 534)], debitCard: [DebitCard(accNumber: 9876543210, cardNumber: 2345, cvvNumber: 111, cardExpiryDate: "03/2027", pinNumber: 233), DebitCard(accNumber: 7654321098, cardNumber: 3456, cvvNumber: 471, cardExpiryDate: "07/2024", pinNumber: 786)]), 
+                                          
+                                       Account(accountNumber: [5678901234 : 4800.0], accountHolderName: "Bob", creditCard: [CreditCard(accNumber: 5678901234, cardNumber: 2098, cvvNumber: 076, cardExpiryDate: "08/2028", pinNumber: 555)], debitCard: [DebitCard(accNumber: 5678901234, cardNumber: 2178, cvvNumber: 142, cardExpiryDate: "07/2023", pinNumber: 707)])]
+    
     var newAccount = Account(accountNumber: [:], accountHolderName: "", creditCard: [], debitCard: [])
     
     init() {
